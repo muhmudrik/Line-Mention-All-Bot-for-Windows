@@ -1,3 +1,8 @@
+'''
+Original File Creator       : Arya Seputra
+Modified for Windows use by : Muhammad Mudrik
+'''
+
 import keyboard
 import time
 import clipboard
