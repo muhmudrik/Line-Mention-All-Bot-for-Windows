@@ -1,5 +1,7 @@
 '''
-Original File Creator: Arya Seputra
+Original File Creator: 
+- Arya Seputra
+- Vincent Suryakim
 '''
 
 import keyboard
