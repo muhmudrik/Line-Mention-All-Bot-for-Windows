@@ -36,19 +36,17 @@ def list_all(amount_of_members, file_to_write="unknown"):
             holder += clipboard.paste()
 
     members_lst = holder.split(' ')
-    print('memebr_lst bef: ')
-    print(members_lst)
     while '' in members_lst:
         members_lst.remove('')
-    print('memebr_lst af: ')
     members_lst = [i.strip(' @').split(' @') for i in members_lst]
-    
-    print(members_lst)
     members_txt_w = open(f"{file_to_write}.txt", "w")
 
     for i in range(len(members_lst)):
         for j in members_lst[i]:
-            print(j+"\n", file=members_txt_w, end="")
+            try:
+                print(j+"\n", file=members_txt_w, end="")
+            except:
+                print(j)
     
     members_txt_w.close()
     
