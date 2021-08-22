@@ -1,0 +1,2 @@
+keyboard==0.13.5
+clipboard==0.0.4
