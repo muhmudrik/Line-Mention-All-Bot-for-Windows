@@ -8,3 +8,4 @@ Original Bot Creator:
 
 Modifier: 
 - Muhammad Mudrik
+- Abdurrafi Arief
